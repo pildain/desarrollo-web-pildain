@@ -1,0 +1,15 @@
+Idea: blog sobre accesibilidad web con distinto material, tanto en texto como en audio, sobre el tema.
+Header:
+Debería tener un logo de la página y un menú (zona navegable) con las distintas opciones: inicio, blog, podcast, preguntas frecuentes, contacto.
+
+Secciones:
+
+Inicio: Tendría que tener el último material subido al sitio
+Blog: debería contener los distintos artículos publicados en el sitio.
+Podcast: tendría que tener los episodios del podcast del blog, con un reproductor que permita interactuar con ellos sin salir de la página así como enlaces a plataformas en las que puede escucharse para quienes utilizan otras aplicaciones.
+Preguntas frecuentes: texto estático explicando qué es la accesibilidad, por qué es importante en el diseño de un sitio web y qué busca difundir acerca de ella. Podría funcionar como un artículo del blog, pero debido a su importancia para explicar el por qué del sitio es mejor tenerla como una sección separada.
+Contacto: contendría un formulario de contacto simple para contactarse vía mail con los responsables del sitio. Podría funcionar también en el footer junto al resto de las redes, cambio a considerar.
+
+Footer:
+
+Contendría links al Twitter del sitio y a un espacio de Slack para chatear.
