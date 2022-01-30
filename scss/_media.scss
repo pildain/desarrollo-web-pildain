@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px){
+    /* ---------------------------------- MENU ---------------------------------- */
+
+    .menu{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .logo{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .listamenu{
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    /* ---------------------------------- MAIN ---------------------------------- */
+
+    .main{
+        flex-direction: column;
+        margin: 2rem 0;
+        padding: 0;
+    }
+
+    .main-iframe{
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+
+    /* ---------------------------------- FOOTER ---------------------------------- */
+
+    .footer{
+        flex-direction: column;
+        height: auto;
+        position: fixed;
+    }
+    .footer div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer div h4{
+        margin: 1rem;
+    }
+}

@@ -1,0 +1,23 @@
+.listamenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listamenu li{
+    list-style: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.listamenu li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.listamenu li a:hover{
+    color: rgb(83, 80, 255);
+}

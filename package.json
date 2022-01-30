@@ -1,0 +1,26 @@
+{
+  "name": "desarrollo-web-pildain",
+  "version": "1.0.0",
+  "description": "Proyecto para el curso de Desarrollo web de Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pildain/desarrollo-web-pildain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pildain/desarrollo-web-pildain/issues"
+  },
+  "homepage": "https://github.com/pildain/desarrollo-web-pildain#readme",
+  "dependencies": {
+    "sass": "^1.49.0"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
