@@ -1,23 +1,35 @@
+<!-- Declaración de HTML -->
 <!DOCTYPE html>
 <html lang="es">
-
+<!-- Inicio del Head -->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  Link al CSS de Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Links del favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <!-- Link del style.css -->
     <link rel="stylesheet" href="style.css">
     <title>Podcast | Doble Tap</title>
+    <!-- Metaetiquetas de descripción para google y protocolo Open Graph para Facebook -->
     <meta name="description" content="Podcasts publicados por el blog de accesibilidad Doble Tap">
+    <meta name="og:type" content="website">
+    <meta name="og:url" content="podcast.html">
+    <meta name="og:title" content="Podcast | Doble Tap">
+    <meta name="og:description" content="Podcasts publicados por el blog de accesibilidad Doble Tap">
+    <meta name="og:image" content="images/logo.jpg">
+    <!-- Fin del Head -->
 </head>
-
+<!-- Inicio del Body -->
 <body>
+  <!-- Inicio del Header -->
     <header class="header">
-
+        <!-- Inicio del Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,17 +56,37 @@
                 </ul>
               </div>
             </div>
+            <!-- Fin del Nav Bar -->
           </nav>
-    </header>
+          <!-- Fin del header -->
+    </Header>
+    <!-- Inicio del Main -->
     <main class="main">
         <h1>Podcast</h1>
-        <p>Como todavía no tenemos un podcast, va uno en el que participo a veces.</p>
-        <iframe src="https://anchor.fm/dobletap8/embed/episodes/Gua-visual-de-Star-Wars-1-e185l73/a-a6kdrv3"
-            height="102px" width="300px" frameborder="0" scrolling="no"></iframe>
+        <p>Aquí encontrarás los últimos episodios publicados en nuestro podcast.</p>
+        <!-- Episodios con iframe de Anchor -->
+        <h2>Reseña de la nueva app de Renfe</h2>
+        <p>Analizamos la app y te contamos qué tal es en cuánto a accesibilidad, cómo es el proceso de compra de billetes y qué debes tener en cuenta para no acabar viajando a Siberia. Salvo que sea porque te apetece, por supuesto.</p>
+        <iframe src="https://anchor.fm/dobletap8/embed/episodes/Resea-de-la-nueva-app-de-Renfe-e19616p/a-a6ojqgi" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+        <h2>Guía visual del misterio 1: Cuarto Milenio, el Egipto de los faraones y más</h2>
+        <p>La primera parte de un viaje apasionante. Iker Jiménez nos visita para guiarnos por lo más icónico del mundo del misterio. Desde el plató de Cuarto Milenio, pasando por las pirámides de Egipto y mucho más. Puedes perdértelo, pero no deberías…</p>
+        <iframe src="https://anchor.fm/dobletap8/embed/episodes/Gua-visual-del-misterio-1-Cuarto-Milenio--el-Egipto-de-los-faraones-y-ms-e18nq9g/a-a6moo2h" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+        <h2>Guía visual de Star Wars 1</h2>
+        <p>Nos visita Nathan Kurtz para contarnos todos lo que puede contarse sobre el aspecto visual de la saga más emblemática de la galaxia. Los personajes, las naves, los efectos especiales y mucho más en un primer especial más centrado en los Jedi y el reverso luminoso de la fuerza. Allí donde la audiodescripción no llega, llegamos nosotros. ¡No puedes perdértelo!</p>
+        <iframe src="https://anchor.fm/dobletap8/embed/episodes/Gua-visual-de-Star-Wars-1-e185l73/a-a6kdrv3" height="102px" width="300px" frameborder="0" scrolling="no"></iframe>
+        <h2>20 novedades de iOS15 interesantes para usuarios de VoiceOver</h2>
+        <p>Hacemos un repaso rápido con las 20 novedades de la última versión del sistema operativo de Âpple que creemos que más pueden interesar a los usuarios de VoiceOver. Para cualquier aclaración, ya sabes dónde encontrarnos.</p>
+        <iframe src="https://anchor.fm/dobletap8/embed/episodes/20-novedades-de-iOS15-interesantes-para-usuarios-de-VoiceOver-e17iuio/a-a6i3hae" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+        <h2>Keynote de Apple: iPhone 13, Apple Watch series 7, nuevos iPad y más</h2>
+        <p>Nos reunimos para comentar las novedades de hardware que Apple ha presentado, con el iPhone 13 como buque insignia. Como siempre, ponemos el foco en la accesibilidad para ciegos y personas con baja visión. Tómate un café con nosotros, invita la casa.</p>
+        <iframe src="https://anchor.fm/dobletap8/embed/episodes/Keynote-de-Apple-iPhone-13--Apple-Watch-series-7--nuevos-iPad-y-ms-e17c44r/a-a6h9oo5" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
+        <!-- Fin del Main -->
     </main>
+    <!-- Inicio del Footer -->
     <footer class="footer">
         <div>
             <h4>¡Seguinos en Twitter!</h4>
+            <!-- SVG de Twitter -->
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="44"
                 height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
                 stroke-linecap="round" stroke-linejoin="round">
@@ -67,6 +99,7 @@
         </div>
         <div>
             <h4>¡Chateá con nosotros en nuestra comunidad de Slack!</h4>
+            <!-- SVG de Slack -->
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-slack" width="44"
                 height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
                 stroke-linecap="round" stroke-linejoin="round">
@@ -79,8 +112,11 @@
                 <a href="http://slack.com"></a>
             </svg>
         </div>
+        <!-- Fin del Footer -->
     </footer>
+    <!-- Link del Javascript de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Fin del Body -->
 </body>
 
 </html>
