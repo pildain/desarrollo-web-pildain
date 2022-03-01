@@ -6,7 +6,7 @@ Secciones:
 
 Inicio: Tendría que tener el último material subido al sitio
 Blog: debería contener los distintos artículos publicados en el sitio.
-Podcast: tendría que tener los episodios del podcast del blog, con un reproductor que permita interactuar con ellos sin salir de la página así como enlaces a plataformas en las que puede escucharse para quienes utilizan otras aplicaciones.
+Podcast: tendría que tener los episodios del podcast del blog, con un reproductor que permita interactuar con ellos sin salir de la página así como enlaces externos para escucharlos fuera del sitio.
 Preguntas frecuentes: texto estático explicando qué es la accesibilidad, por qué es importante en el diseño de un sitio web y qué busca difundir acerca de ella. Podría funcionar como un artículo del blog, pero debido a su importancia para explicar el por qué del sitio es mejor tenerla como una sección separada.
 Contacto: contendría un formulario de contacto simple para contactarse vía mail con los responsables del sitio. Podría funcionar también en el footer junto al resto de las redes, cambio a considerar.
 
